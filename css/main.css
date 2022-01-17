@@ -240,3 +240,42 @@ footer p{
     height: 90px;
     margin-right: 10px;
 }
+
+/* Profile */
+.profile-main-container{
+    padding: 70px 40px;
+    background-color: var(--grey-blue);
+    margin-bottom: 50px;
+}
+.profile-main-container img{
+    margin-right: 30px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile-main-container h2{
+    font-size: 2rem;
+}
+.profile-main-container p{
+    font-size: 1.6rem;
+}
+.profile-main-container .profile-container{
+    display: flex;
+}
+.profile-main-projects{
+    padding: 0 50px 40px;
+}
+.profile-main-projects h3{
+    border-bottom: 1px solid var(--grey-blue);
+    padding-bottom: 35px;
+    text-align: center;
+}
+.projects-main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.project-container{
+    padding: 0 10px;
+}
+.project-container p{
+    text-align: justify;
+}
