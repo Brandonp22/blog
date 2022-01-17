@@ -45,7 +45,7 @@ header .header-icons-container{
     width: 100%;
     height: 50px;
     display: grid;
-    align-items: c;
+    align-items: center;
     background-color: var(--black);
 
 }
@@ -278,4 +278,7 @@ footer p{
 }
 .project-container p{
     text-align: justify;
+}
+.project-container img{
+    width: 100%;
 }
